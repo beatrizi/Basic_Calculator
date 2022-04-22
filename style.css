@@ -1,3 +1,26 @@
+*{color: aliceblue;}
+
 body{
     background-color: aqua;
+    margin: 0;
+}
+/*giving shape*/
+.container{
+/*ponga todo el contenido en el centro*/
+display: flex;
+justify-content: center;
+align-items: center;
+/*altura, porque sino se alinea arriba*/
+height: 100vh;
+
+}
+/*crear una grilla para colocar los botones*/
+.calculator{
+    display: grid;
+    /*crearemos 4 columnas que se repetirarn hacia abajo 4 filas
+    con tamano*/
+    grid-template-columns: repeat(4,50px);
+    /*haremos un columna  para el display altoxancho*/
+    grid-template-rows: 160px repeat(5,50px) ;
+    
 }
