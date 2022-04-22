@@ -52,3 +52,35 @@ button {
 button:active{
     background-color: #00ffc11f;
 }
+ /*mejorando el display donde veremos los numeros*/
+/*ancho de lado a lado*/
+.display {
+grid-column: 1/-1;
+padding: 16px;
+display: flex;
+margin: 10px 10px 20px;
+/*que se vea uno encima de otro*/
+flex-direction: column;
+/*todo a la derecha*/
+align-items: flex-end;
+background-color: #000010;
+border-radius: 32px;
+text-align: right;
+justify-content: space-between;
+word-break: break-all;
+box-shadow: 0px 0px 0px 10px #000033 ;
+}
+
+/*botones anchos -span*/
+.wide-button{
+    grid-column: span 2;
+}
+
+/*cambiar estilo de los numeros del display*/
+.previous-value{
+    font-size: 1.5em;
+}
+
+.current-value{
+    font-size: 2em;
+}
