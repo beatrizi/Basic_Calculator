@@ -1,5 +1,5 @@
 * {
-  color: black;
+  
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
 
@@ -58,6 +58,7 @@ button:active{
  /*mejorando el display donde veremos los numeros*/
 /*ancho de lado a lado*/
 .display {
+color:whitesmoke;
 grid-column: 1/-1;
 padding: 16px;
 display: flex;
